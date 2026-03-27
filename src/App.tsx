@@ -567,8 +567,8 @@ export default function App() {
 
             <div className="mt-auto pt-6 border-t">
               <div className="bg-blue-50 p-4 rounded-2xl border border-blue-100">
-                <p className="text-xs font-bold text-blue-600 uppercase mb-2">Suporte & Revistas</p>
-                <p className="text-sm text-blue-800 mb-3 leading-relaxed">Faça seu pedido via PIX para apoiar o projeto.</p>
+                <p className="text-xs font-bold text-blue-600 uppercase mb-2">LIÇÃO EBD</p>
+                <p className="text-sm text-blue-800 mb-3 leading-relaxed">Faça seu pagamento via pix para apoiar o projeto</p>
                 <div className="flex items-center gap-2 bg-white p-2 rounded-lg border border-blue-200">
                   <CreditCard size={16} className="text-blue-600" />
                   <span className="text-xs font-mono font-bold">92994674857</span>
@@ -618,7 +618,7 @@ export default function App() {
                   onClick={() => setActiveTab('students')}
                 />
                 <StatCard 
-                  title="Presentes Hoje" 
+                  title="Alunos Presentes" 
                   value={presentTodayCount} 
                   icon={CheckCircle2} 
                   color="bg-amber-500" 
@@ -993,7 +993,10 @@ export default function App() {
                     </div>
                     <div>
                       <h3 className="font-bold text-amber-900">Pagamento da Lição</h3>
-                      <p className="text-sm text-amber-700">Faça o pagamento via PIX <span className="font-bold">92994674857</span> para receber sua lição.</p>
+                      <p className="text-sm text-amber-700">
+                        Faça o pagamento via PIX <span className="font-bold">92994674857</span> para receber sua lição.
+                        <span className="block mt-1 font-bold">Valor: R$ 25,00</span>
+                      </p>
                     </div>
                   </div>
                   <button 
